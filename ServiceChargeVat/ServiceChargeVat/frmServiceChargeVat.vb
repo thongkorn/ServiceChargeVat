@@ -44,6 +44,9 @@ Public Class frmServiceChargeVat
         Call InitializeGrid()
         Call FillDataSample()   '/ ตัวอย่างสมมุติ
         Call CalSumTotal()  '/ รวมจำนวนเงิน
+        '// แก้ไข: ลืมตอนกำหนด Design Time
+        Label7.Anchor = AnchorStyles.Bottom + AnchorStyles.Left
+        cmbTax.Anchor = AnchorStyles.Bottom + AnchorStyles.Left
     End Sub
 
     ' / --------------------------------------------------------------------------------
